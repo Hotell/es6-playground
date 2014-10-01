@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "es6-cjs": "traceur --dir playground/ out/ --modules=commonjs",
+    "es6-amd": "traceur --dir playground/ out/ --modules=amd",
+    "es6-browser": "traceur --out out/browser.js playground/app"
+  },
+  "author": "Martin Hochel <martin.hochel@lbbw.cz> (http://lbbw.cz/)",
+  "license": "ISC",
+  "dependencies": {
+    "traceur": "0.0.66"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-concat": "^2.4.1",
+    "gulp-sourcemaps": "^1.2.2",
+    "gulp-traceur": "^0.13.0"
+  }
+}
