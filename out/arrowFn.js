@@ -14,3 +14,5 @@ console.log('=======================');
 console.log(square(5));
 console.log(add(3, 4));
 console.log(pi());
+
+//# sourceMappingURL=arrowFn.map

@@ -7,3 +7,5 @@ console.log('=======================');
 console.log('======Spread========');
 console.log('=======================');
 console.log(addSpread.apply(null, $traceurRuntime.spread(nums)));
+
+//# sourceMappingURL=spread.map

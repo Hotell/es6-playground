@@ -14,3 +14,5 @@ var Person = function Person(fname, lname, age) {
     return (this.name + " " + this.surname + " : " + this.age + " years old");
   }}, {});
 var $__default = Person;
+
+//# sourceMappingURL=person.map

@@ -11,3 +11,5 @@ var Person = ($__person__ = require("./person"), $__person__ && $__person__.__es
 ($__set__ = require("./set"), $__set__ && $__set__.__esModule && $__set__ || {default: $__set__});
 var personInstance = new Person('Martin', 'Hochel');
 console.log(personInstance.fullname);
+
+//# sourceMappingURL=app.map

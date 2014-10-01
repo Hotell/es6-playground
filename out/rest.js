@@ -12,3 +12,5 @@ console.log('=======================');
 console.log('======Rest========');
 console.log('=======================');
 console.log(msg);
+
+//# sourceMappingURL=rest.map

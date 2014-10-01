@@ -111,3 +111,5 @@ System.register("../playground/app", [], function() {
   return {};
 });
 System.get("../playground/app" + '');
+
+//# sourceMappingURL=browser.map

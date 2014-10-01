@@ -27,3 +27,5 @@ for (var $__2 = x.values()[Symbol.iterator](),
     console.log(value$__4);
   }
 }
+
+//# sourceMappingURL=set.map

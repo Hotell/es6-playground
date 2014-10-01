@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "es6-cjs": "traceur --dir playground/ out/ --modules=commonjs",
-    "es6-amd": "traceur --dir playground/ out/ --modules=amd",
-    "es6-browser": "traceur --out out/browser.js playground/app"
+    "es6-cjs": "traceur --dir playground/ out/ --modules=commonjs --source-maps",
+    "es6-amd": "traceur --dir playground/ outAmd/ --modules=amd --source-maps",
+    "es6-browser": "traceur --out out/browser.js playground/app --source-maps"
   },
   "author": "Martin Hochel <martin.hochel@lbbw.cz> (http://lbbw.cz/)",
   "license": "ISC",
